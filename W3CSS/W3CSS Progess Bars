@@ -1,0 +1,21 @@
+<body>
+  <div class="w3-container">
+
+    <h2>Pagination Arrows Vũ Quốc Bảo - 2121050447</h2>
+    <p>Use HTML entities (or icons from an icon library) to add pagination arrows:Vũ Quốc Bảo - 2121050447</p>
+    <h2>Progress Bar Vũ Quốc Bảo - 2121050447</h2>
+    <p>The w3-container class can be used for a progress bar.Vũ Quốc Bảo - 2121050447</p>
+    <p>The CSS width property can be used to set the height and width.Vũ Quốc Bảo - 2121050447</p>
+
+    <div class="w3-bar">
+      <a href="#" class="w3-button">&laquo;</a>
+      <a href="#" class="w3-button">1 Vũ Quốc Bảo - 2121050447</a>
+      <a href="#" class="w3-button">2 Vũ Quốc Bảo - 2121050447</a>
+      <a href="#" class="w3-button">3 Vũ Quốc Bảo - 2121050447</a>
+      <a href="#" class="w3-button">4 Vũ Quốc Bảo - 2121050447</a>
+      <a href="#" class="w3-button">&raquo;</a>
+    <div class="w3-border">
+      <div class="w3-grey" style="height:24px;width:20%"></div>
+    </div>
+
+    </div>

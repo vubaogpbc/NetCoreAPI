@@ -1,0 +1,45 @@
+ </head>
+<body>
+  <div class="w3-container">
+
+    <h2>Bar Colors Vũ Quốc Bảo - 2121050447</h2>
+
+    <p>You can use any color to style a bar:Vũ Quốc Bảo - 2121050447</p>
+
+    <div class="w3-bar w3-black">
+      <div class="w3-bar-item">London Vũ Quốc Bảo - 2121050447</div>
+      <div class="w3-bar-item">Paris Vũ Quốc Bảo - 2121050447</div>
+      <div class="w3-bar-item">Tokyo Vũ Quốc Bảo - 2121050447</div>
+    </div>
+    <br>
+    <div class="w3-bar w3-red">
+      <div class="w3-bar-item">London Vũ Quốc Bảo - 2121050447</div>
+      <div class="w3-bar-item">Paris Vũ Quốc Bảo - 2121050447</div>
+      <div class="w3-bar-item">Tokyo Vũ Quốc Bảo - 2121050447</div>
+    </div>
+    <br>
+    <div class="w3-bar-block w3-black" style="width:120px">
+      <div class="w3-bar-item">London Vũ Quốc Bảo - 2121050447</div>
+      <div class="w3-bar-item">Paris Vũ Quốc Bảo - 2121050447</div>
+      <div class="w3-bar-item">Tokyo Vũ Quốc Bảo - 2121050447</div>
+    </div>
+    <br>
+    <div class="w3-bar-block w3-red" style="width:120px">
+      <div class="w3-bar-item">London Vũ Quốc Bảo - 2121050447</div>
+      <div class="w3-bar-item">Paris Vũ Quốc Bảo - 2121050447</div>
+      <div class="w3-bar-item">Tokyo Vũ Quốc Bảo - 2121050447</div>
+    </div>
+
+    <h2>Dropdown Button Vũ Quốc Bảo - 2121050447</h2>
+    <p>Move the mouse over the button to open the dropdown content.Vũ Quốc Bảo - 2121050447</p>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button w3-black">Hover Over Me! Vũ Quốc Bảo - 2121050447</button>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="#" class="w3-bar-item w3-button">Link 1 Vũ Quốc Bảo - 2121050447</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2 Vũ Quốc Bảo - 2121050447</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3 Vũ Quốc Bảo - 2121050447</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

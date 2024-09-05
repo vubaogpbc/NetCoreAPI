@@ -1,0 +1,97 @@
+<title>W3.CSS Vũ Quốc Bảo - 2121050447</title>
+</head>
+<body>
+
+  <div class="w3-container">
+    <h2>Filter Table Vũ Quốc Bảo - 2121050447</h2>
+    <p>Search for a name in the input field. Vũ Quốc Bảo - 2121050447</p>
+  <div class="w3-container"> 
+    <div class="w3-card w3-section"> 
+      <header class="w3-container w3-teal">
+        <h1>Header Vũ Quốc Bảo - 2121050447</h1>
+      </header>
+      <div class="w3-container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Vũ Quốc Bảo - 2121050447
+      </div>
+      <footer class="w3-container w3-teal">
+        <h5>Footer Vũ Quốc Bảo - 2121050447</h5>
+      </footer>
+    </div>
+
+    <input class="w3-input w3-border w3-padding" type="text" placeholder="Search for names.." id="myInput" onkeyup="myFunction()">
+
+    <table class="w3-table-all w3-margin-top" id="myTable">
+      <tr>
+        <th style="width:60%;">Name  Vũ Quốc Bảo - 2121050447</th>
+        <th style="width:40%;">Country  Vũ Quốc Bảo - 2121050447</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste  Vũ Quốc Bảo - 2121050447</td>
+        <td>Germany  Vũ Quốc Bảo - 2121050447</td>
+      </tr>
+      <tr>
+        <td>Berglunds snabbkop  Vũ Quốc Bảo - 2121050447</td>
+        <td>Sweden  Vũ Quốc Bảo - 2121050447</td>
+      </tr>
+      <tr>
+        <td>Island Trading  Vũ Quốc Bảo - 2121050447</td>
+        <td>UK  Vũ Quốc Bảo - 2121050447</td>
+      </tr>
+      <tr>
+        <td>Koniglich Essen  Vũ Quốc Bảo - 2121050447</td>
+        <td>Germany  Vũ Quốc Bảo - 2121050447</td>
+      </tr>
+      <tr>
+        <td>Laughing Bacchus Winecellars  Vũ Quốc Bảo - 2121050447</td>
+        <td>Canada  Vũ Quốc Bảo - 2121050447</td>
+      </tr>
+      <tr>
+        <td>Magazzini Alimentari Riuniti  Vũ Quốc Bảo - 2121050447</td>
+        <td>Italy  Vũ Quốc Bảo - 2121050447</td>
+      </tr>
+      <tr>
+        <td>North/South  Vũ Quốc Bảo - 2121050447</td>
+        <td>UK  Vũ Quốc Bảo - 2121050447</td>
+      </tr>
+      <tr>
+        <td>Paris specialites  Vũ Quốc Bảo - 2121050447</td>
+        <td>France  Vũ Quốc Bảo - 2121050447</td>
+      </tr>
+    </table>
+
+    <p><strong>Tip:</strong> Remove toUpperCase() if you want to perform a case-sensitive search.</p>
+    <p>Change tr[i].getElementsByTagName('td')[0] to [1] if you want to search for "Country" (index 1) instead of "Name" (index 0).</p>
+    <div class="w3-card-4 w3-section">
+      <div class="w3-container w3-teal">
+        <h2>Mountains Vũ Quốc Bảo - 2121050447</h2>
+      </div>
+      <img src="img_snowtops.jpg" alt="Alps" style="width:100%">
+      <div class="w3-container w3-center">
+        <p>French Alps Vũ Quốc Bảo - 2121050447</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  function myFunction() {
+    var input, filter, table, tr, td, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+  </script>
+</body>
+</html>

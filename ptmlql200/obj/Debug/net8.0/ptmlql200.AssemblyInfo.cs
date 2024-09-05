@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ptmlql200")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3455cc2ff0e75cce05ddc0cdcbb7ae2e3287f9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cddc9c73bd0d0b0662f94e67ed7d36604cd9722")]
 [assembly: System.Reflection.AssemblyProductAttribute("ptmlql200")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ptmlql200")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
