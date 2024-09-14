@@ -20,6 +20,7 @@ namespace ptmlql200.Controllers
 
         [HttpPost]
         public IActionResult Index(string FullName, string Address)
+        
         {
             string strOutput = "Xin chào " + FullName + " đến từ " + Address;
             ViewBag.Message = strOutput;
