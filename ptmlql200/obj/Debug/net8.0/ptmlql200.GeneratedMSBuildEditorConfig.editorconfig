@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Net_Core_API\ptmlql200
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Net_Core_API/ptmlql200/Views/Helloword/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG93b3JkXGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Net_Core_API/ptmlql200/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

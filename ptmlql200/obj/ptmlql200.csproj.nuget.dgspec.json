@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Net_Core_API\\ptmlql200\\ptmlql200.csproj": {}
+    "D:\\Net_Core_API\\ptmlql200\\ptmlql200.csproj": {}
   },
   "projects": {
-    "d:\\Net_Core_API\\ptmlql200\\ptmlql200.csproj": {
+    "D:\\Net_Core_API\\ptmlql200\\ptmlql200.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Net_Core_API\\ptmlql200\\ptmlql200.csproj",
+        "projectUniqueName": "D:\\Net_Core_API\\ptmlql200\\ptmlql200.csproj",
         "projectName": "ptmlql200",
-        "projectPath": "d:\\Net_Core_API\\ptmlql200\\ptmlql200.csproj",
+        "projectPath": "D:\\Net_Core_API\\ptmlql200\\ptmlql200.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "d:\\Net_Core_API\\ptmlql200\\obj\\",
+        "outputPath": "D:\\Net_Core_API\\ptmlql200\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
