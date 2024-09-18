@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ptpmql200.props" />
+</Project>

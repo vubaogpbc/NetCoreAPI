@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "D:\\Net_Core_API\\ptmlql200\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ptmlql200.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ptmlql200.bundle.scp.css"
+      "Id": "D:\\Net_Core_API\\ptmlql200\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ptpmql200.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ptpmql200.bundle.scp.css"
     },
     {
       "Id": "D:\\Net_Core_API\\ptmlql200\\wwwroot\\css\\site.css",
@@ -245,19 +245,19 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ptmlql200.props",
-      "PackagePath": "build\\ptmlql200.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ptpmql200.props",
+      "PackagePath": "build\\ptpmql200.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ptmlql200.props",
-      "PackagePath": "buildMultiTargeting\\ptmlql200.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ptpmql200.props",
+      "PackagePath": "buildMultiTargeting\\ptpmql200.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ptmlql200.props",
-      "PackagePath": "buildTransitive\\ptmlql200.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ptpmql200.props",
+      "PackagePath": "buildTransitive\\ptpmql200.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ptmlql200.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ptpmql200.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     }
   ],
