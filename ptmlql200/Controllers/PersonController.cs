@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ptpmql200.Data;
-using ptpmql200.Models;
+using ptmlql200.Data;
+using ptpmql200.Models.entities;
 
 namespace ptpmql200.Controllers
 {
@@ -22,19 +22,19 @@ namespace ptpmql200.Controllers
         // GET: Person
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Persons.ToListAsync());
+            return View(await _context.Person.ToListAsync());
         }
 
         // GET: Person/Details/5
-        public async Task<IActionResult> Details(string id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var person = await _context.Persons
-                .FirstOrDefaultAsync(m => m.PersonId == id);
+            var person = await _context.Person
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (person == null)
             {
                 return NotFound();
@@ -54,7 +54,7 @@ namespace ptpmql200.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PersonId,FullName")] Person person)
+        public async Task<IActionResult> Create([Bind("Id,FullName,DateOfBirth,Address")] Person person)
         {
             if (ModelState.IsValid)
             {
@@ -66,14 +66,14 @@ namespace ptpmql200.Controllers
         }
 
         // GET: Person/Edit/5
-        public async Task<IActionResult> Edit(string id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var person = await _context.Persons.FindAsync(id);
+            var person = await _context.Person.FindAsync(id);
             if (person == null)
             {
                 return NotFound();
@@ -86,9 +86,9 @@ namespace ptpmql200.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("PersonId,FullName")] Person person)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,FullName,DateOfBirth,Address")] Person person)
         {
-            if (id != person.PersonId)
+            if (id != person.Id)
             {
                 return NotFound();
             }
@@ -102,7 +102,7 @@ namespace ptpmql200.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!PersonExists(person.PersonId))
+                    if (!PersonExists(person.Id))
                     {
                         return NotFound();
                     }
@@ -117,15 +117,15 @@ namespace ptpmql200.Controllers
         }
 
         // GET: Person/Delete/5
-        public async Task<IActionResult> Delete(string id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var person = await _context.Persons
-                .FirstOrDefaultAsync(m => m.PersonId == id);
+            var person = await _context.Person
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (person == null)
             {
                 return NotFound();
@@ -137,21 +137,21 @@ namespace ptpmql200.Controllers
         // POST: Person/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var person = await _context.Persons.FindAsync(id);
+            var person = await _context.Person.FindAsync(id);
             if (person != null)
             {
-                _context.Persons.Remove(person);
+                _context.Person.Remove(person);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool PersonExists(string id)
+        private bool PersonExists(int id)
         {
-            return _context.Persons.Any(e => e.PersonId == id);
+            return _context.Person.Any(e => e.Id == id);
         }
     }
 }

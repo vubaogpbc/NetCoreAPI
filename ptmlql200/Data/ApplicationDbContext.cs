@@ -1,20 +1,23 @@
 using System;
-using System.Collection.Generic;
-using System.Ling;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using ptpmql200.Models;
+using ptpmql200.Models.entities;
 
-namespace ptpmql200.Data
+namespace ptmlql200.Data
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-             : base(options)
-    {
-    }
-        public DbSet<Student> Student { get; set; } = default!;
+        public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {
+        }
+
         public DbSet<Person> Person { get; set; } = default!;
-        public DbSet<Employee> Employee { get; set; } = default!;
+        public DbSet<Student> student { get; set; } = default!;
+        public DbSet<Employee> Employee{ get; set; } = default!;
+        
+
     }
 }

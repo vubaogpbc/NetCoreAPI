@@ -1,11 +1,11 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace ptmlql200.Models.Entities
+namespace ptpmql200.Models.entities
 {
     public class Employee : Person
     {
-        [Key]
-        public string EmployeeID { get; set; }
-        public string CongTy { get; set; }
+    
+        public string EmployeeID { get; set; } 
+        public string CongTy { get; set; } 
     }
 }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.001.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ptpmql200", "ptpmql200.csproj", "{61BFDEDC-F237-46C6-859B-AE73F7079972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61BFDEDC-F237-46C6-859B-AE73F7079972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BFDEDC-F237-46C6-859B-AE73F7079972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BFDEDC-F237-46C6-859B-AE73F7079972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BFDEDC-F237-46C6-859B-AE73F7079972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE00428C-02A2-4157-95BD-C5D4237D9A93}
+	EndGlobalSection
+EndGlobal

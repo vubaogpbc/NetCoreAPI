@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ptpmql200")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+306f7514748951d11688e5e09da64a6098743e2c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b4525b5379b2e61c61c7cf6baeac3138ca6ec22")]
 [assembly: System.Reflection.AssemblyProductAttribute("ptpmql200")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ptpmql200")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
